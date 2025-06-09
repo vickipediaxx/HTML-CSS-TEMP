@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+/* HERO SECTION */
+.hero-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(Products/hero.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  color: rgb(0, 0, 0);
+}
+
+/* BUTTON */
+.button {
+  padding: 10px 20px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* CARDS */
+.cards {
+    text-align: center;
+    margin: 20px;
+}
+
+.cards-header {
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; /* Makes them wrap on small screens */
+}
+
+.card {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background: #fff;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card h3, .card h4 {
+    margin: 10px;
+}
+
+/* ABOUT US */
+.about-us {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9e6e6f3;
+}
+
+/* GALLERY */
+.gallery {
+  margin: 40px 20px;
+}
+
+.gallery-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gallery-header h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.gallery-header p {
+  color: #555;
+  margin: 5px 0 0;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery-container img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+/* FOOTER */
+footer {
+  background: #f9f9f9;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+footer h2 {
+  margin-bottom: 10px;
+}
+
+footer form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+footer input[type="email"] {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+}
+
+footer button {
+  padding: 10px 15px;
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.social-icons img {
+  width: 24px;
+  margin: 0 5px;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
